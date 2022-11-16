@@ -1,0 +1,3 @@
+clang++ -Weverything -fPIC -O3 -std=c++14 -Igodot-cpp/include -Igodot-cpp/include/gen -Igodot-cpp/include/core -Igodot-cpp/godot-headers -c /home/matheus/Documentos/godot/teste/src/test.cpp -o obj/Release/src/test.o
+
+clang++  -o godot/bin/teste.so obj/Release/src/test.o  -shared  godot-cpp/bin/libgodot-cpp.linux.debug.64.a

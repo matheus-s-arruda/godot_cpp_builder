@@ -1,0 +1,581 @@
+# depslib dependency file v1.0
+1667178869 source:/home/matheus/Documentos/godot/godot_cpp_builder/purgatorium.cpp
+
+1667267836 source:/home/matheus/Documentos/godot/godot_cpp_builder/register_types.cpp
+	"register_types.hpp"
+	<godot/gdnative_interface.h>
+	<godot_cpp/core/class_db.hpp>
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/godot.hpp>
+	"purgatorium.hpp"
+	"tests.h"
+
+1667267500 /home/matheus/Documentos/godot/godot_cpp_builder/register_types.hpp
+	<godot_cpp/core/class_db.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/class_db.hpp
+	<godot/gdnative_interface.h>
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/method_bind.hpp>
+	<godot_cpp/core/object.hpp>
+	<list>
+	<set>
+	<string>
+	<unordered_map>
+	<vector>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/godot-headers/godot/gdnative_interface.h
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/defs.hpp
+	<cstddef>
+	<cstdint>
+	<cstring>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/error_macros.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/variant/string.hpp>
+	<cstdint>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/string.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/variant/char_string.hpp>
+	<godot_cpp/variant/char_utils.hpp>
+	<godot_cpp/variant/ucaps.hpp>
+	<godot/gdnative_interface.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/char_string.hpp
+	<cstddef>
+	<cstdint>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/char_utils.hpp
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/ucaps.hpp
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/method_bind.hpp
+	<godot_cpp/core/binder_common.hpp>
+	<godot_cpp/core/type_info.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot/gdnative_interface.h>
+	<godot_cpp/classes/global_constants.hpp>
+	<string>
+	<vector>
+	<iostream>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/binder_common.hpp
+	<godot/gdnative_interface.h>
+	<godot_cpp/core/method_ptrcall.hpp>
+	<godot_cpp/core/type_info.hpp>
+	<array>
+	<vector>
+	<godot_cpp/classes/global_constants_binds.hpp>
+	<godot_cpp/variant/builtin_binds.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/method_ptrcall.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/godot.hpp>
+	<godot_cpp/variant/variant.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/godot.hpp
+	<godot/gdnative_interface.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/variant.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/variant/builtin_types.hpp>
+	<godot_cpp/variant/variant_size.hpp>
+	<godot/gdnative_interface.h>
+	<array>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/builtin_types.hpp
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/variant/vector2.hpp>
+	<godot_cpp/variant/vector2i.hpp>
+	<godot_cpp/variant/rect2.hpp>
+	<godot_cpp/variant/rect2i.hpp>
+	<godot_cpp/variant/vector3.hpp>
+	<godot_cpp/variant/vector3i.hpp>
+	<godot_cpp/variant/transform2d.hpp>
+	<godot_cpp/variant/vector4.hpp>
+	<godot_cpp/variant/vector4i.hpp>
+	<godot_cpp/variant/plane.hpp>
+	<godot_cpp/variant/quaternion.hpp>
+	<godot_cpp/variant/aabb.hpp>
+	<godot_cpp/variant/basis.hpp>
+	<godot_cpp/variant/transform3d.hpp>
+	<godot_cpp/variant/projection.hpp>
+	<godot_cpp/variant/color.hpp>
+	<godot_cpp/variant/string_name.hpp>
+	<godot_cpp/variant/node_path.hpp>
+	<godot_cpp/variant/rid.hpp>
+	<godot_cpp/variant/callable.hpp>
+	<godot_cpp/variant/signal.hpp>
+	<godot_cpp/variant/dictionary.hpp>
+	<godot_cpp/variant/array.hpp>
+	<godot_cpp/variant/packed_byte_array.hpp>
+	<godot_cpp/variant/packed_int32_array.hpp>
+	<godot_cpp/variant/packed_int64_array.hpp>
+	<godot_cpp/variant/packed_float32_array.hpp>
+	<godot_cpp/variant/packed_float64_array.hpp>
+	<godot_cpp/variant/packed_string_array.hpp>
+	<godot_cpp/variant/packed_vector2_array.hpp>
+	<godot_cpp/variant/packed_vector3_array.hpp>
+	<godot_cpp/variant/packed_color_array.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/vector2.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/math.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+	<cmath>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/vector2i.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/rect2.hpp
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/vector2.hpp>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/global_constants.hpp
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/rect2i.hpp
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/vector2i.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/vector3.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/vector3i.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/transform2d.hpp
+	<godot_cpp/variant/packed_vector2_array.hpp>
+	<godot_cpp/variant/rect2.hpp>
+	<godot_cpp/variant/vector2.hpp>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_vector2_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/vector4.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/vector4i.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/plane.hpp
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/vector3.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/quaternion.hpp
+	<godot_cpp/core/math.hpp>
+	<godot_cpp/variant/vector3.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/aabb.hpp
+	<godot_cpp/variant/plane.hpp>
+	<godot_cpp/variant/vector3.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/basis.hpp
+	<godot_cpp/variant/quaternion.hpp>
+	<godot_cpp/variant/vector3.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/transform3d.hpp
+	<godot_cpp/core/math.hpp>
+	<godot_cpp/variant/aabb.hpp>
+	<godot_cpp/variant/basis.hpp>
+	<godot_cpp/variant/packed_vector3_array.hpp>
+	<godot_cpp/variant/plane.hpp>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_vector3_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/projection.hpp
+	<godot_cpp/core/math.hpp>
+	<godot_cpp/variant/vector3.hpp>
+	<godot_cpp/variant/vector4.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/color.hpp
+	<godot_cpp/core/math.hpp>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/string_name.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/node_path.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/rid.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/callable.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/signal.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/dictionary.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/variant/array_helpers.hpp>
+	<godot/gdnative_interface.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/array_helpers.hpp
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_byte_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_int32_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_int64_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_float32_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_float64_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_string_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/packed_color_array.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot/gdnative_interface.h>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/variant_size.hpp
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/type_info.hpp
+	<godot_cpp/core/object.hpp>
+	<godot_cpp/variant/typed_array.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot/gdnative_interface.h>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/object.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/core/property_info.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot_cpp/classes/object.hpp>
+	<godot_cpp/godot.hpp>
+	<godot/gdnative_interface.h>
+	<vector>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/property_info.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot_cpp/godot.hpp>
+	<godot/gdnative_interface.h>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/object.hpp
+	<godot_cpp/variant/array.hpp>
+	<godot_cpp/variant/dictionary.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/packed_string_array.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/variant/string_name.hpp>
+	<godot_cpp/variant/typed_array.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot_cpp/classes/wrapped.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/variant/typed_array.hpp
+	<godot_cpp/variant/array.hpp>
+	<godot_cpp/variant/variant.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/classes/wrapped.hpp
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/core/property_info.hpp>
+	<godot_cpp/templates/list.hpp>
+	<godot_cpp/godot.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/core/memory.hpp
+	<cstddef>
+	<cstdint>
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/godot.hpp>
+	<type_traits>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/list.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/templates/sort_array.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/sort_array.hpp
+	<godot_cpp/core/error_macros.hpp>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/global_constants_binds.hpp
+	<godot_cpp/classes/global_constants.hpp>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/builtin_binds.hpp
+	<godot_cpp/variant/builtin_types.hpp>
+
+1667267813 /home/matheus/Documentos/godot/godot_cpp_builder/tests.h
+	"godot_cpp/templates/cowdata.hpp"
+	"godot_cpp/templates/hash_map.hpp"
+	"godot_cpp/templates/hash_set.hpp"
+	"godot_cpp/templates/hashfuncs.hpp"
+	"godot_cpp/templates/list.hpp"
+	"godot_cpp/templates/pair.hpp"
+	"godot_cpp/templates/rb_map.hpp"
+	"godot_cpp/templates/rb_set.hpp"
+	"godot_cpp/templates/rid_owner.hpp"
+	"godot_cpp/templates/safe_refcount.hpp"
+	"godot_cpp/templates/search_array.hpp"
+	"godot_cpp/templates/self_list.hpp"
+	"godot_cpp/templates/sort_array.hpp"
+	"godot_cpp/templates/spin_lock.hpp"
+	"godot_cpp/templates/thread_work_pool.hpp"
+	"godot_cpp/templates/vector.hpp"
+	"godot_cpp/templates/vmap.hpp"
+	"godot_cpp/templates/vset.hpp"
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/cowdata.hpp
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/math.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/templates/safe_refcount.hpp>
+	<cstring>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/safe_refcount.hpp
+	<atomic>
+	<type_traits>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/hash_map.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/templates/hashfuncs.hpp>
+	<godot_cpp/templates/pair.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/hashfuncs.hpp
+	<intrin.h>
+	<godot_cpp/core/math.hpp>
+	<godot_cpp/core/object.hpp>
+	<godot_cpp/variant/aabb.hpp>
+	<godot_cpp/variant/node_path.hpp>
+	<godot_cpp/variant/rect2.hpp>
+	<godot_cpp/variant/rect2i.hpp>
+	<godot_cpp/variant/rid.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/variant/string_name.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot_cpp/variant/vector2.hpp>
+	<godot_cpp/variant/vector2i.hpp>
+	<godot_cpp/variant/vector3.hpp>
+	<godot_cpp/variant/vector3i.hpp>
+	<godot_cpp/variant/vector4.hpp>
+	<godot_cpp/variant/vector4i.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/pair.hpp
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/hash_set.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/templates/hash_map.hpp>
+	<godot_cpp/templates/hashfuncs.hpp>
+	<godot_cpp/templates/pair.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/rb_map.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/templates/pair.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/rb_set.hpp
+	<godot_cpp/core/memory.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/rid_owner.hpp
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/godot.hpp>
+	<godot_cpp/templates/list.hpp>
+	<godot_cpp/templates/spin_lock.hpp>
+	<godot_cpp/variant/utility_functions.hpp>
+	<stdio.h>
+	<typeinfo>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/spin_lock.hpp
+	<atomic>
+
+1667247195 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/variant/utility_functions.hpp
+	<godot_cpp/variant/builtin_types.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<array>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/search_array.hpp
+	<godot_cpp/templates/sort_array.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/self_list.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/core/error_macros.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/thread_work_pool.hpp
+	<godot_cpp/classes/os.hpp>
+	<godot_cpp/classes/semaphore.hpp>
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/memory.hpp>
+	<thread>
+	<atomic>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/os.hpp
+	<godot_cpp/variant/array.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/core/object.hpp>
+	<godot_cpp/variant/packed_string_array.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/semaphore.hpp
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/classes/ref_counted.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/classes/ref.hpp
+	<godot_cpp/core/defs.hpp>
+	<godot_cpp/classes/object.hpp>
+	<godot_cpp/classes/ref_counted.hpp>
+	<godot_cpp/core/binder_common.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/variant/variant.hpp>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/ref_counted.hpp
+	<godot_cpp/core/object.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/vector.hpp
+	<godot_cpp/core/error_macros.hpp>
+	<godot_cpp/core/memory.hpp>
+	<godot_cpp/templates/cowdata.hpp>
+	<godot_cpp/templates/search_array.hpp>
+	<godot_cpp/templates/sort_array.hpp>
+	<climits>
+	<initializer_list>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/vmap.hpp
+	<godot_cpp/templates/cowdata.hpp>
+
+1667221996 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include/godot_cpp/templates/vset.hpp
+	<godot_cpp/templates/vector.hpp>
+
+1667184531 source:/home/matheus/Documentos/godot/godot_cpp_builder/purgatorium/purgatorium.cpp
+	"purgatorium.hpp"
+
+1667255763 /home/matheus/Documentos/godot/godot_cpp_builder/purgatorium/purgatorium.hpp
+	<godot_cpp/godot.hpp>
+	<godot_cpp/classes/control.hpp>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/control.hpp
+	<godot_cpp/classes/canvas_item.hpp>
+	<godot_cpp/variant/color.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/node_path.hpp>
+	<godot_cpp/variant/rect2.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/variant/string_name.hpp>
+	<godot_cpp/variant/typed_array.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot_cpp/variant/vector2.hpp>
+	<godot_cpp/variant/vector2i.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247193 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/canvas_item.hpp
+	<godot_cpp/variant/color.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/classes/node.hpp>
+	<godot_cpp/variant/packed_vector2_array.hpp>
+	<godot_cpp/variant/rid.hpp>
+	<godot_cpp/variant/rect2.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/classes/text_server.hpp>
+	<godot_cpp/classes/texture2d.hpp>
+	<godot_cpp/variant/transform2d.hpp>
+	<godot_cpp/variant/vector2.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/node.hpp
+	<godot_cpp/variant/array.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/node_path.hpp>
+	<godot_cpp/core/object.hpp>
+	<godot_cpp/variant/packed_string_array.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/variant/string_name.hpp>
+	<godot_cpp/variant/typed_array.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/text_server.hpp
+	<godot_cpp/variant/array.hpp>
+	<godot_cpp/variant/color.hpp>
+	<godot_cpp/variant/dictionary.hpp>
+	<godot_cpp/classes/global_constants.hpp>
+	<godot_cpp/variant/packed_int32_array.hpp>
+	<godot_cpp/variant/packed_string_array.hpp>
+	<godot_cpp/variant/packed_vector2_array.hpp>
+	<godot_cpp/variant/rid.hpp>
+	<godot_cpp/variant/rect2.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/classes/ref_counted.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/variant/transform2d.hpp>
+	<godot_cpp/variant/typed_array.hpp>
+	<godot_cpp/variant/variant.hpp>
+	<godot_cpp/variant/vector2.hpp>
+	<godot_cpp/variant/vector2i.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/texture2d.hpp
+	<godot_cpp/variant/color.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/classes/texture.hpp>
+	<godot_cpp/variant/vector2.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/texture.hpp
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/classes/resource.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+
+1667247194 /home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include/godot_cpp/classes/resource.hpp
+	<godot_cpp/variant/rid.hpp>
+	<godot_cpp/classes/ref.hpp>
+	<godot_cpp/classes/ref_counted.hpp>
+	<godot_cpp/variant/string.hpp>
+	<godot_cpp/core/class_db.hpp>
+	<type_traits>
+

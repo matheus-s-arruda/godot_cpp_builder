@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="godot_cpp_builder" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Build>
+			<Target title="Release">
+				<Option output="../purgatorium/bin/purgatorium" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-fPIC" />
+					<Add option="-O3" />
+					<Add option="-std=c++17" />
+					<Add directory="godot-cpp/src" />
+					<Add directory="godot-cpp/src/core" />
+					<Add directory="godot-cpp/gen/include" />
+					<Add directory="godot-cpp/src/variant" />
+					<Add directory="godot-cpp/include" />
+					<Add directory="godot-cpp/godot-headers" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-shared" />
+					<Add library="godot-cpp/bin/libgodot-cpp.linux.template_debug.x86_64.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Weverything" />
+		</Compiler>
+		<Unit filename="purgatorium/purgatorium.cpp" />
+		<Unit filename="purgatorium/purgatorium.hpp" />
+		<Unit filename="register_types.cpp" />
+		<Unit filename="register_types.hpp" />
+		<Unit filename="tests.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

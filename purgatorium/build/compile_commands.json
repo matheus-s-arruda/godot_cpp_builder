@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/matheus/Documentos/godot/godot_cpp_builder/purgatorium/build",
+  "command": "/usr/bin/g++ -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/godot-headers -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/include -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen/include -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/src -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/src/core -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/src/variant -I/home/matheus/Documentos/godot/godot_cpp_builder/godot-cpp/gen -g -std=c++17 -o CMakeFiles/purgatorium.dir/purgatorium.cpp.o -c /home/matheus/Documentos/godot/godot_cpp_builder/purgatorium/purgatorium.cpp",
+  "file": "/home/matheus/Documentos/godot/godot_cpp_builder/purgatorium/purgatorium.cpp"
+}
+]

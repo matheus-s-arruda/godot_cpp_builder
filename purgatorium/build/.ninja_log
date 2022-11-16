@@ -1,0 +1,6 @@
+# ninja log v5
+7	127	1667864098708144257	libGodotLib.so	a921dcdd46d30303
+4	169	1667868831236917556	purgatorium	53d7d3e2daf001e3
+2	8	0	clean	a31eedcededa8236
+7	1729	1667868367794044225	CMakeFiles/purgatorium.dir/purgatorium.cpp.o	2e65e80b0b1b3033
+2	115	1667868957496790110	build.ninja	ce9bb5634fcda590

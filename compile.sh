@@ -1,0 +1,2 @@
+clang++ -Weverything -fPIC -O3 -std=c++17 -Igodot-cpp/src -Igodot-cpp/src/core -Igodot-cpp/gen/include -Igodot-cpp/src/variant -Igodot-cpp/include -Igodot-cpp/godot-headers -c /home/matheus/Documentos/godot/godot_cpp_builder/register_types.cpp -o obj/Release/register_types.o
+clang++  -o ../purgatorium/bin/purgatorium obj/Release/purgatorium/purgatorium.o obj/Release/register_types.o  -s -shared  godot-cpp/bin/libgodot-cpp.linux.template_debug.x86_64.a
